@@ -2,7 +2,7 @@
 
 `python drag_projectile.py`
 
-via drag equation and newtons 2nd law
+via drag equation and newtons 2nd law, [using chatgpt pro 4o](https://chatgpt.com/share/e/678fc590-1c20-800d-8d57-4f64b2d7dad6)
 
 ## Derivation of the Velocity-Time Formula for a Projectile with Drag
 
