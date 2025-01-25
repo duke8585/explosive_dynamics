@@ -14,31 +14,26 @@ Explosions release energy in the form of heat, shockwaves, and mechanical destru
 ---
 
 ## **Formulas**
-The energy absorbed by water (Q) is calculated as:
 
-\[
-Q_{water} = m_w \cdot c_w \cdot (\Delta T) + m_w \cdot L_v + m_v \cdot c_v \cdot (\Delta T_{vapor})
-\]
+The energy absorbed by water ($Q$) is calculated as:
+
+$Q_{water} = m_w \cdot c_w \cdot (\Delta T) + m_w \cdot L_v + m_v \cdot c_v \cdot (\Delta T_{vapor})$
 
 Where:
-- \( m_w \): Mass of water (kg)
-- \( c_w \): Specific heat capacity of water (~4.18 kJ/kg·°C)
-- \( \Delta T \): Temperature rise (°C)
-- \( L_v \): Latent heat of vaporization (~2260 kJ/kg for water)
-- \( m_v \): Mass of water converted to vapor (kg)
-- \( c_v \): Specific heat capacity of vapor (~2.01 kJ/kg·°C)
+- $m_w$: Mass of water (kg)
+- $c_w$: Specific heat capacity of water (~4.18 kJ/kg·°C)
+- $\Delta T$: Temperature rise (°C)
+- $L_v$: Latent heat of vaporization (~2260 kJ/kg for water)
+- $m_v$: Mass of water converted to vapor (kg)
+- $c_v$: Specific heat capacity of vapor (~2.01 kJ/kg·°C)
 
 The mitigated energy is:
 
-\[
-E_{effective} = E_{explosive} - Q_{water}
-\]
+$E_{effective} = E_{explosive} - Q_{water}$
 
-Mitigation efficiency (η):
+Mitigation efficiency ($\eta$):
 
-\[
-\eta = \frac{Q_{water}}{E_{explosive}}
-\]
+$\eta = \frac{Q_{water}}{E_{explosive}}$
 
 ---
 
